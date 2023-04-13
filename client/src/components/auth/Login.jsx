@@ -12,6 +12,8 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [visible, setVisible] = useState(false);
 
+  
+
   return (
     <div className="min-h-screen bg-gray-50 flex-col justify-center py-12 sm:px-6 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
@@ -21,7 +23,7 @@ const Login = () => {
       </div>
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
         <div className="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
-          <form action="">
+          <form className="space-y-6">
           <div>
               <label
                 htmlFor="email"
@@ -73,7 +75,7 @@ const Login = () => {
                 )}
               </div>
             </div>
-            <div className={`${styles.noramlFlex} mt-5 justify-between`}>
+            <div className={`${styles.noramlFlex} justify-between`}>
               <div className={`${styles.noramlFlex}`}>
                 <input
                   type="checkbox"
@@ -100,13 +102,13 @@ const Login = () => {
             <div>
               <button
                 type="submit"
-                className="group mt-5 relative w-full h-[40px] flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
+                className="group  relative w-full h-[40px] flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
               >
-                Submit
+                Login
               </button>
             </div>
-            <div className={`${styles.noramlFlex} mt-5 w-full`}>
-              <h4>Not have any account?</h4>
+            <div className={`${styles.noramlFlex} w-full`}>
+              <h4>Don't have account yet?</h4>
               <Link to="/sign-up" className="text-blue-600 pl-2">
                 Sign Up
               </Link>
