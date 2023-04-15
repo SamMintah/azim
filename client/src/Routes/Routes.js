@@ -1,9 +1,10 @@
 import LoginPage from "../pages/LoginPage";
-import signupPage from "../pages/signupPage";
+import SignUpPage from "../pages/SignUpPage";
 
 export {
     LoginPage,
-    signupPage,
+    // signupPage,
+    SignUpPage
 }
 
 
