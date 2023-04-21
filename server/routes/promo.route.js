@@ -13,3 +13,6 @@ router.post(
 router.delete("/delete-shop-promo/:id", isSeller, catchAsyncErrors(deletePromo));
 router.get("/get-all-promos",getAllPromos);
 router.get("/get-all-promos/:id", catchAsyncErrors(getAllpromoOfShop));
+
+
+module.exports = router;
