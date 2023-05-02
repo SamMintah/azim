@@ -7,7 +7,7 @@ import axios from "axios";
 // import { server } from "../../server";
 import { toast } from "react-toastify";
 
-const Singup = () => {
+const SignUp = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
@@ -182,4 +182,4 @@ const Singup = () => {
   );
 };
 
-export default Singup;
+export default SignUp;
