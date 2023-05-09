@@ -1,11 +1,11 @@
 const express = require("express");
 const path = require("path");
 const User = require("../model/user");
-const ErrorHandler = require("../utils/ErrorHandler");
+const ErrorHandler = require("../../utils/ErrorHandler");
 const fs = require("fs");
 const jwt = require("jsonwebtoken");
-const sendMail = require("../utils/sendMail");
-const sendToken = require("../utils/jwtToken");
+const sendMail = require("../../utils/sendMail");
+const sendToken = require("../../utils/jwtToken");
 
 
 const createUser = async (req, res, next) => {

@@ -1,7 +1,7 @@
 
 const Shop = require("../model/shop");
 const Promo = require("../model/promo");
-const ErrorHandler = require("../utils/ErrorHandler");
+const ErrorHandler = require("../../utils/ErrorHandler");
 const fs = require("fs");
 
 // create promo

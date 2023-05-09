@@ -1,6 +1,6 @@
 const Product = require("../model/product");
 const Shop = require("../model/shop");
-const ErrorHandler = require("../utils/ErrorHandler");
+const ErrorHandler = require("../../utils/ErrorHandler");
 const fs = require("fs");
 
 // create product

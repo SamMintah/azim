@@ -1,5 +1,5 @@
 const Shop = require("../model/shop");
-const ErrorHandler = require("../utils/ErrorHandler");
+const ErrorHandler = require("../../utils/ErrorHandler");
 const couponCode = require("../model/couponCode");
 
 // create coupoun code

@@ -7,7 +7,7 @@ const {
   getProduct,
 } = require("../controller/product");
 const catchAsyncErrors = require("../middleware/catchAsyncErrors");
-const { upload } = require("../multer");
+const { upload } = require("../../multer");
 
 const router = express.Router();
 

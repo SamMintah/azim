@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { isAuthenticated, isSeller } = require("../middleware/auth");
-const { upload } = require("../multer");
+const { upload } = require("../../multer");
 const catchAsyncErrors = require("../middleware/catchAsyncErrors");
 const {
   createShop,

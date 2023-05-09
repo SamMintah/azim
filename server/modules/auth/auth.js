@@ -1,6 +1,6 @@
 const User = require("../model/user");
-const ErrorHandler = require("../utils/ErrorHandler");
-const sendToken = require("../utils/jwtToken");
+const ErrorHandler = require("../../utils/ErrorHandler");
+const sendToken = require("../../utils/jwtToken");
 
 // login user
 const Login = async (req, res, next) => {

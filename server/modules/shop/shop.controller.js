@@ -3,14 +3,14 @@ const path = require("path");
 const router = express.Router();
 const fs = require("fs");
 const jwt = require("jsonwebtoken");
-const sendMail = require("../utils/sendMail");
-const sendToken = require("../utils/jwtToken");
+const sendMail = require("../../utils/sendMail");
+const sendToken = require("../../utils/jwtToken");
 const Shop = require("../model/shop");
 const { isAuthenticated, isSeller } = require("../middleware/auth");
-const { upload } = require("../multer");
+const { upload } = require("../../multer");
 const catchAsyncErrors = require("../middleware/catchAsyncErrors");
-const ErrorHandler = require("../utils/ErrorHandler");
-const sendShopToken = require("../utils/shopToken");
+const ErrorHandler = require("../../utils/ErrorHandler");
+const sendShopToken = require("../../utils/shopToken");
 
 // create shop
 const createShop = async (req, res, next) => {

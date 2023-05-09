@@ -1,6 +1,6 @@
 const express = require("express");
 const catchAsyncErrors = require("../middleware/catchAsyncErrors");
-const { upload } = require("../multer");
+const { upload } = require("../../multer");
 const { createPromo ,deletePromo,getAllPromos, getAllpromoOfShop} = require("../controller/promo");
 const { isSeller } = require("../middleware/auth");
 
